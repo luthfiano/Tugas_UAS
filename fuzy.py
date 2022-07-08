@@ -116,9 +116,9 @@ class Warna():
             return 0
 
     def banyak(self, x):
-        if x >= self.jelas:
+        if x >= self.kuning:
             return 1
-        elif x <= self.sedikit:
+        elif x <= self.hijau:
             return 0
         else:
-            return up(x, self.sedikit, self.jelas)
+            return up(x, self.hijau, self.kuning)
